@@ -2,6 +2,8 @@
 - This project is implementation RISC-V in PFGA
 
 ## Specification
+- ISA:
+    - RV32IM ISA
 - Languages:
     - Verilog
 - Tools:
