@@ -23,7 +23,8 @@ The project focuses on building a complete **Single-Cycle Processor** microarchi
 | Category | Details |
 | :--- | :--- |
 | **Instruction Set** | RISC-V RV32I (Base Integer) |
-| **Microarchitecture** | Single-Cycle Processor |
+| **Microarchitecture** | Evolutionary Design (Single-Cycle → Multi-Cycle → Pipelined) |
+| **Features** | Hazard Handling, Performance Benchmarking, Cache Integration (TBD) |
 | **Target Hardware** | PYNQ-Z2 (Xilinx Zynq-7000 SoC) |
 | **Hardware Language** | Verilog HDL |
 | **EDA Tool** | Xilinx Vivado 2019.1 |
