@@ -27,7 +27,7 @@ The project focuses on building a complete **Single-Cycle Processor** microarchi
 | **Features** | Hazard Handling, Performance Benchmarking, Cache Integration (TBD) |
 | **Target Hardware** | PYNQ-Z2 (Xilinx Zynq-7000 SoC) |
 | **Hardware Language** | Verilog HDL |
-| **EDA Tool** | Xilinx Vivado 2019.1 |
+| **EDA Tool** | Xilinx Vivado 2025.2 |
 | **Software Toolchain** | **TBD** (e.g., RISC-V GNU Toolchain) |
 
 ---
@@ -36,9 +36,9 @@ The project focuses on building a complete **Single-Cycle Processor** microarchi
 
 This project is structured in phases, moving from a basic functional processor to an optimized pipelined architecture with performance benchmarking.
 
-### Phase 1: Single-Cycle Processor (Current Focus)
+### Phase 1: Single-Cycle Processor (⭐Current Focus⭐)
 - [x] Fundamental Architecture & Datapath Design
-- [ ] Core RV32I Module Implementation (ALU, RegFile, ImmGen)
+- [x] Core RV32I Module Implementation (ALU, RegFile, ImmGen)
 - [ ] Control Unit & Instruction Decoding Logic
 - [ ] Functional Verification via Simulation (Vivado XSim)
 
