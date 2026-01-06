@@ -36,13 +36,14 @@ The project focuses on building a complete **Single-Cycle Processor** microarchi
 
 This project is structured in phases, moving from a basic functional processor to an optimized pipelined architecture with performance benchmarking.
 
-### Phase 1: Single-Cycle Processor (⭐Current Focus⭐)
+### Phase 1: Single-Cycle Processor
 - [x] Fundamental Architecture & Datapath Design
 - [x] Core RV32I Module Implementation (ALU, RegFile, ImmGen)
-- [ ] Control Unit & Instruction Decoding Logic
-- [ ] Functional Verification via Simulation (Vivado XSim)
+- [x] Control Unit & Instruction Decoding Logic
+- [x] Functional Verification via Simulation (Vivado XSim)
+<img width="1280" height="300" alt="image" src="https://github.com/user-attachments/assets/f9ddfaee-111c-47b2-8504-687932222bfe" />
 
-### Phase 2: Multi-Cycle Processor
+### Phase 2: Multi-Cycle Processor (⭐Current Focus⭐)
 - [ ] State Machine Based Control Unit Design
 - [ ] Resource Sharing Optimization (Shared ALU/Memory)
 - [ ] Multi-cycle Instruction Timing Verification
@@ -80,8 +81,3 @@ This project is inspired by and references the following resources:
 * **Course**: [RISC-V Processor Design Course](https://www.youtube.com/watch?v=izPdo7n1u1I) by Marco Spaziani Brunella
 * **Specification**: [Official RISC-V Instruction Set Manual](https://riscv.org/technical/specifications/)
 
----
-
-### 📝 Notes
-- **Current Status**: **Active development of the Single-Cycle Processor.** We are focusing on integrating the datapath components and establishing the core control logic.
-- **Environment**: Multi-device synchronization is set up via Git and Tcl scripts for seamless transition between office and home environments.
